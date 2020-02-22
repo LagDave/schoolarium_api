@@ -1,0 +1,27 @@
+csrf = jvOLN74XabB3G3xjg3nvLIBpUPInazjfB7AxsYuN
+
+SAMPLE STUDENT ************
+
+{
+	"user_name": "rdavephp",
+	"first_name": "Rustine Dave",
+	"last_name": "Lontayao",
+	"middle_name": "Macalino",
+	"grade_level": "11",
+	"section": "Rizal",
+	"password": "lagdave14",
+	"confirm_password": "lagdave14"
+}
+
+SAMPLE TEACHER **************
+
+{
+	"user_name": "etrofgla",
+	"first_name": "JSON",
+	"last_name": "API",
+	"middle_name": "AXIOS",
+	"subject": "IT",
+	"degree": "Science in Computer Science",
+	"password": "lagdave14",
+	"confirm_password": "lagdave14"
+}
