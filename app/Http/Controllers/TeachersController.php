@@ -28,4 +28,7 @@ class TeachersController extends Controller
         }
 
     }
+    public function destroy(Teacher $teacher){
+        return response()->json($teacher->delete());
+    }
 }
