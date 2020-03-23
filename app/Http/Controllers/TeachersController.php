@@ -8,6 +8,9 @@ use Illuminate\Support\Facades\Validator;
 
 class TeachersController extends Controller
 {
+    public function index(){
+        return Teacher::all();
+    }
     public function store(Request $request){
 
         $validator = Validator::make($request->all(), [
@@ -20,7 +23,7 @@ class TeachersController extends Controller
             'password'=>'required|max:255',
             'confirm_password'=>'required|same:password|max:255'
         ]);
-        
+
         if($validator->fails()){
             return response()->json(['errors'=>$validator->errors()]);
         }else{
